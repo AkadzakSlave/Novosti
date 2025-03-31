@@ -1,0 +1,78 @@
+﻿@page "/Tasks"
+@using System.Xml.Linq
+@using Models
+@using Newtonsoft.Json
+@using Task = Models.Task
+<h3>Tasks</h3>
+
+<table class="table table-bordered w-50 table-hover">
+    <thead class="table-danger">
+    <tr>
+        <td>
+            <b>Задача</b>
+        </td>
+        <td>
+            <b>Статус задачи</b>
+        </td>
+        <td>
+            <b>Выполнено</b>
+        </td>
+    </tr>
+    </thead>
+    <tbody class="table-warning">
+    @foreach (var item in TaskList)
+    {
+        <tr>
+            <td>@item.TaskName</td>
+            <td>@item.TaskStatus</td>
+            <td> <input type="checkbox" @bind=@item.IsDone disabled=""/></td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+@code {
+    public IList<Task> TaskList { get; set; } = new List<Task>();
+    
+
+    public void OpenFile()
+    {
+        if (File.Exists("save.json"))
+        {
+            var json = File.ReadAllText("save.json");
+            TaskList = JsonConvert.DeserializeObject<List<Task>>(json)!;
+        }
+        else
+        {
+            SaveFile();
+        }
+    }
+
+    public void SaveFile()
+    {
+        var json = JsonConvert.SerializeObject(TaskList);
+        File.WriteAllText("save.json", json);
+    }
+    
+    protected override void OnInitialized()
+    {
+        OpenFile();
+        
+        var task1 = new Task(Status.Done, true, "task_01");
+        var task2 = new Task(Status.Cancelled, false, "task_02");
+        var task3 = new Task(Status.Processing, false, "task_03");
+        
+        TaskList.Clear();
+        
+        TaskList.Add(task1);
+        TaskList.Add(task2);
+        TaskList.Add(task3);
+
+        SaveFile();
+        base.OnInitialized();
+    }
+    public void DoOnClickButton()
+    {
+        StateHasChanged();
+    }
+}

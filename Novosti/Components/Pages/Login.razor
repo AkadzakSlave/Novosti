@@ -1,0 +1,108 @@
+﻿@page "/Login"
+@using System.ComponentModel.DataAnnotations    
+@using Models.Services
+@using Models
+@inject NavigationManager NavigationManager
+@inject AuthProvider AuthProvider
+@rendermode InteractiveServer
+
+
+<h3>Авторизация</h3>
+
+<EditForm Model="loginCredentials" OnValidSubmit="HandleLogin" FormName="Login">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+    <div>
+        <label>Логин:</label>
+        <InputText @bind-Value="loginCredentials.Login" />
+    </div>
+    <div>
+        <label>Пароль:</label>
+        <InputText @bind-Value="loginCredentials.Password" type="password" />
+    </div>
+    <button type="submit">Войти</button>
+</EditForm>
+
+@if (!string.IsNullOrEmpty(loginErrorMessage))
+{
+    <p style="color:red;">@loginErrorMessage</p>
+}
+
+<h3>Регистрация</h3>
+
+<EditForm Model="registerCredentials" OnValidSubmit="HandleRegister" FormName="Register">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div>
+        <label>Имя:</label>
+        <InputText @bind-Value="registerCredentials.Name" />
+    </div>
+    <div>
+        <label>Логин:</label>
+        <InputText @bind-Value="registerCredentials.Login" />
+    </div>
+    <div>
+        <label>Пароль:</label>
+        <InputText @bind-Value="registerCredentials.Password" type="password" />
+    </div>
+    <p>
+        <label>Role:</label>
+        <select @bind="role" class="form-select">
+            @foreach (var item in Enum.GetNames<UserRole>())
+            {
+                <option value="@item">@item</option>
+            }
+        </select>
+    </p>
+    <button type="submit">Зарегистрироваться</button>
+</EditForm>
+
+@if (!string.IsNullOrEmpty(registerErrorMessage))
+{
+    <p style="color:red;">@registerErrorMessage</p>
+}
+@if (registerCorrectMessege == "Вы успешно зарегестрировались!")
+{
+<p style="color:green;">@registerCorrectMessege</p>
+}
+
+
+@code {
+    private User loginCredentials = new User();
+    private User registerCredentials = new User();
+    private string registerFullName;
+    private string loginErrorMessage;
+    private string registerErrorMessage;
+    private string registerCorrectMessege;
+    private UserRole role;
+
+    private void HandleLogin()
+    {
+        try
+        {
+            AuthProvider.Login(loginCredentials);
+            NavigationManager.NavigateTo("/Content");
+        }
+        catch (Exception e)
+        {
+            loginErrorMessage = e.Message;
+        }
+    }
+
+    private void HandleRegister()
+    {
+        try
+        {
+            AuthProvider.Register(registerCredentials, role);
+            registerErrorMessage = null;
+            registerCorrectMessege = "Вы успешно зарегестрировались!";
+            NavigationManager.NavigateTo("/login");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.ToString());
+            registerErrorMessage = ex.Message;
+        }
+    }
+}

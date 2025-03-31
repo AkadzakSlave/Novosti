@@ -1,0 +1,97 @@
+﻿@page "/Forms"
+@rendermode InteractiveServer
+<h3>Forms</h3>
+
+<input type="checkbox" >
+<label>
+    <input type="radio" name="Radio dot" value="opt1" checked/>
+    1
+</label>
+<label>
+    <input type="radio" name="Radio dot" value="opt2"/>
+    2
+</label>
+
+<input type="text" @bind="myName"/>
+<button @onclick="DoOnClickButton">Проверить</button>
+
+@if (myName == "Илья")
+{
+    <p style="color: #20c997">вы угадали</p>
+}
+else if (string.IsNullOrEmpty(myName)){}
+else
+{
+    <p style="color: #d5242b">Не угадали</p>
+}
+
+<p></p>
+<p>
+    <label class="center">логин</label>
+    <input type="text" @bind="Login"/>
+</p>
+<p>
+    <label>пароль</label>
+    <input type="password"@bind="Password"/>
+</p>
+<p>
+    <label>Запомнить</label>
+    <input type="checkbox" @bind="RememberMe"/>
+</p>
+<p>
+    <label>Дата рождения</label>
+    <input type="date" @bind="SelectedDate"/>
+</p>
+<p>Вы выбрали: @SelectedPlace</p>
+<p><button class="btn-info" @onclick="Auth">Войти</button></p>
+<p><button class="btn-danger" @onclick="ClearAll">Очистить</button></p>
+<select class="btn-outline-primary" @bind="SelectedPlace">
+    <option value="@myName"> Имя</option>
+    <option value="build2"> Корпус 2</option>
+    <option value="build5"> Корпус 5</option>
+</select>
+
+<p></p>
+@if (!IsAuth)
+{
+    <div class="alert alert-danger" role="alert">
+        Неправильный логин или пароль
+    </div>
+}
+else if (string.IsNullOrEmpty(Login)){}
+else
+{
+    <div class="alert alert-success" role="alert">
+        Вход выполнен
+    </div>
+}
+@code {
+    
+    private string myName = string.Empty;
+    public void DoOnClickButton()
+    {
+        StateHasChanged();
+    }
+
+    public string Login { get; set; } = string.Empty;
+    public string Password { get; set; } = string.Empty;
+    
+    public bool IsAuth { get; set; } = false;
+    public bool RememberMe { get; set; }
+    public DateTime SelectedDate { get; set; } = DateTime.Now;
+    public string SelectedPlace { get; set; }
+    public void Auth()
+    {
+        if (Login == "qwer" || Password == "1234")
+        {
+            IsAuth = true;
+        }
+    }
+
+    public void ClearAll()
+    {
+        Login = String.Empty;
+        Password = String.Empty;
+        StateHasChanged();
+    }
+}

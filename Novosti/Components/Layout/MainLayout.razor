@@ -1,0 +1,59 @@
+﻿@using Models.Services
+@using Task = System.Threading.Tasks.Task
+@inherits LayoutComponentBase
+@inject MoneyService MoneyService
+@inject DateTimeService DateTimeService
+@rendermode InteractiveServer
+
+<div class="page">
+    <div class="sidebar">
+        <NavMenu/>
+    </div>
+    <main>
+        <div class="top-row px-4">
+            
+            @if (DateTimeService.GetDateTime().Second % 2 == 0)
+            {
+                <a class="text-primary"> Время:@DateTimeService.GetDateTime().ToString("HH:")</a>
+                <h class="text-warning">@DateTimeService.GetDateTime().ToString("MM:")</h>
+                <h class="text-danger">@DateTimeService.GetDateTime().ToString("ss")</h>
+            }
+            else
+            {
+                <a class="text-success"> Время:@DateTimeService.GetDateTime().ToString("HH:")</a>
+                <h class="text-info">@DateTimeService.GetDateTime().ToString("MM:")</h>
+                <h class="text-warning">@DateTimeService.GetDateTime().ToString("ss")</h>
+            }
+            <a></a>
+            <b role="status">Ваш баланс: @MoneyService.TotalMany </b>
+            <a href="https://learn.microsoft.com/aspnet/core/" target="_blank">About</a>
+            <a href="Images/1519171567_6xAfr45m0gweCG8Ja.gif">:)</a>
+        </div>
+        <article class="content px-4">
+            @Body
+        </article>
+    </main>
+</div>
+
+<div id="blazor-error-ui">
+    An unhandled error has occurred.
+    <a href="" class="reload">Reload</a>
+    <a class="dismiss">🗙</a>
+</div>
+
+@code
+{
+    protected override void OnInitialized()
+    {
+        Task.Run(RefreshTime);
+    }
+
+    public async Task RefreshTime()
+    {
+        while (true)
+        {
+            await InvokeAsync(StateHasChanged);
+            await Task.Delay(1000);
+        }
+    }
+}

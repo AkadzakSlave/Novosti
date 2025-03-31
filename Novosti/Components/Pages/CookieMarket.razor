@@ -1,0 +1,53 @@
+﻿@page "/CookieMarket"
+@using System.Net.Mime
+@using Models
+@using Models.Services
+@using Novosti.Components.Layout
+@inject CartService CartService
+@inject CookieService CookieService
+@rendermode  InteractiveServer
+@inject NavigationManager NavigationManager
+
+<h3>ПЕЧЕНЬЕ ДЛЯ СВОих</h3>
+
+<ul>
+    @foreach (var product in CookieService.GetCookies())
+    {
+        <li>
+            <img src="@product.ImageUrl" alt="@product.Name" width="100" />
+            <h4>@product.Name</h4>
+            <p>Цена: @product.Price</p>
+            <button class="btn" @onclick="() => AddToCart(product)">Добавить в корзину</button>
+        </li>
+    }
+</ul>
+<button @onclick="() => NavigateToCart()" type="button" class="btn btn-outline-success">
+    Корзина
+        @if (itemsInCart == 0)
+        {
+        <span class="badge bg-danger"></span>
+        }
+    else
+    { <span class="badge bg-danger">@itemsInCart</span> }
+</button>
+<button  class="banner-b image-cart1" @onclick="() => NavigateToCart()"></button>
+
+@code {
+    
+    private void NavigateToCart()
+    {
+        NavigationManager.NavigateTo("/Cart");
+        
+    }
+    public void AddToCart(Cookie product)
+    {
+        CartService.AddToCart(product);
+        ItemsInCart();
+    }
+
+    int itemsInCart;
+    public void ItemsInCart()
+    {
+        itemsInCart++;
+    }
+}

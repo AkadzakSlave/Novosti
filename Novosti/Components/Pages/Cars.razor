@@ -1,0 +1,93 @@
+﻿@page "/Cars"
+@using Models
+@rendermode InteractiveServer
+<h3>Cars</h3>
+
+<table class="table table-bordered w-50 table-hover">
+    <thead class="table-danger">
+    <tr>
+        <td>
+            <b>Брэнд</b>
+        </td>
+        <td>
+            <b>Модель</b>
+        </td>
+        <td>
+            <b>Год выпуска</b>
+        </td>
+        <td>
+            <b>Цена</b>
+        </td>
+        <td>
+            <b>Ссылка</b>
+        </td>
+    </tr>
+    </thead>
+    <tbody class="table-warning">
+    @foreach (var item in CarsList)
+    {
+        <tr>
+            <td>@item.Brand</td>
+            <td>@item.Model</td>
+            <td>@item.Year</td>
+            <td>@item.Price рублей</td>
+            <td><a href="@item.Link" class="font-color">Ссылка</a></td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+<button @onclick="DoOnClickButton" type="button" class="btn btn-primary" id="liveToastBtn">Show live toast</button>
+
+<div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+    <div id="liveToast" class="toast " role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-header">
+            <img src="..." class="rounded me-2" alt="...">
+            <strong class="me-auto">Bootstrap</strong>
+            <small>11 mins ago</small>
+            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+        <div class="toast-body">
+            Hello, world! This is a toast message.
+        </div>
+    </div>
+</div>
+@code {
+    public IList<Car> CarsList { get; set; } = new List<Car>();
+
+    protected override void OnInitialized()
+    {
+        var Lada = new Car()
+        {
+            Brand = "Lada",
+            Model = "Granta",
+            Year = 2023,
+            Price = 750_000,
+            Link = "https://www.lada.ru/cars/granta/sedan?ysclid=m6iwutzg6n178772096"
+        };
+        var UAZ = new Car()
+        {
+            Brand = "UAZ",
+            Model = "Patriot",
+            Year = 2024,
+            Price = 1_602_000,
+            Link = "https://www.uaz.ru/cars/patriot-mkpp?ysclid=m6iwwq8n6b271426037"
+        };
+        var GAZ = new Car()
+        {
+            Brand = "GAZ",
+            Model = "Volga",
+            Year = 1979,
+            Price = 137_000,
+            Link = "https://samara.110km.ru/prodazha/gaz/3110/"
+        };
+        CarsList.Add(Lada);
+        CarsList.Add(UAZ);
+        CarsList.Add(GAZ);
+        base.OnInitialized();
+    }
+    public void DoOnClickButton()
+    {
+        StateHasChanged();
+    }
+}

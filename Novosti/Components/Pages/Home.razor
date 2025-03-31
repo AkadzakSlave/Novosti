@@ -1,0 +1,35 @@
+﻿@page "/"
+
+@rendermode InteractiveServer
+
+<PageTitle>Novosti Bishkeka</PageTitle>
+
+<h1>Statie</h1>
+
+@inject NavigationManager NavigationManager
+<button class="banner-b image-button1" @onclick="NavigateToPage1"></button>
+<button class="banner-b image-button2" @onclick="NavigateToPage2"></button>
+<button class="banner-b image-button3" @onclick="NavigateToPage3"></button>
+<button class="banner-b image-button4" @onclick="NavigateToPage4" ></button>
+
+
+@code {
+    private void NavigateToPage1()
+    {
+        NavigationManager.NavigateTo("/Page1");
+    }
+    private void NavigateToPage2()
+    {
+        NavigationManager.NavigateTo("/Page2");
+    }
+    private void NavigateToPage3()
+    {
+        NavigationManager.NavigateTo("/Page3");
+    }
+    private void NavigateToPage4()
+    {
+        NavigationManager.NavigateTo("/Page4");
+    }
+    
+    
+}

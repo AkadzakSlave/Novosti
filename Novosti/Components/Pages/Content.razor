@@ -1,0 +1,128 @@
+﻿@page "/Content"
+@using Models
+@using Models.Services
+@inject NavigationManager NavigationManager
+@inject AuthProvider AuthProvider
+@inject PermissionProvider PermissionProvider
+@inject RateService RateService
+
+<h3>Контент</h3>
+
+@if (currentUser != null)
+{
+    <p>Добро пожаловать, @currentUser.Name!</p>
+
+    @if (PermissionProvider.HasPermission(currentUser, "AdminOnly"))
+    {
+        <p>Вы администратор и имеете доступ к этой информации.</p>
+    }
+    else
+    {
+        <p>У вас нет доступа к административной информации.</p>
+    }
+}
+else
+{
+    <p>Пожалуйста, войдите в систему.</p>
+}
+<button type="submit" @onclick="LogOut">Выйти</button>
+
+<h4>Оставьте отзыв</h4>
+<textarea @bind="newReview.Comment" placeholder="Ваш отзыв"></textarea>
+<select @bind="newReview.Rating">
+    <option value="0">Оцените</option>
+    @for (int i = 1; i <= 5; i++)
+    {
+        <option value="@i">@i</option>
+    }
+</select>
+
+<button @onclick="SubmitReview">Отправить</button>
+
+
+<h3>Отзывы</h3>
+<div>
+    @if (reviews.Count == 0)
+    {
+    <p>Нет отзывов.</p>
+    }
+    else
+    {
+    @foreach (var review in GetCurrentPageReviews())
+    {
+    <div>
+        <strong>@currentUser.Name</strong>
+        <span>
+                    @for (int i = 0; i < review.Rating; i++)
+            {
+            <span>⭐</span>
+            }
+                </span>
+        <p>@review.Comment</p>
+    </div>
+    }
+    }
+</div>
+
+@if (TotalPages() > 1)
+{
+<div>
+    <button @onclick="GoToPreviousPage" disabled="@(currentPage == 1)">Назад</button>
+    <span>Страница @currentPage из @TotalPages()</span>
+    <button @onclick="GoToNextPage" disabled="@(currentPage == TotalPages())">Вперед</button>
+</div>
+}
+
+@code {
+    private User currentUser;
+
+    protected override void OnInitialized()
+    {
+        currentUser = AuthProvider.GetCurrentUser();
+    }
+
+    private void LogOut()
+    {
+        AuthProvider.Logout();
+        NavigationManager.NavigateTo("/Login");
+    }
+
+    private List<User> reviews = new List<User>();
+    private User newReview = new User();
+    private int currentPage = 1;
+    private const int reviewsPerPage = 5;
+
+    public void SubmitReview()
+    {
+        if (newReview.Rating > 0 && newReview.Rating <= 5)
+        {
+            reviews.Add(newReview);
+            newReview = new User();
+            currentPage = TotalPages() > 0 ? TotalPages() : 1;
+        }
+    }
+    private IEnumerable<User> GetCurrentPageReviews()
+    {
+        return reviews.Skip((currentPage - 1) * reviewsPerPage).Take(reviewsPerPage);
+    }
+    private void GoToNextPage()
+    {
+        if (currentPage < TotalPages())
+        {
+            currentPage++;
+        }
+    }
+
+    private void GoToPreviousPage()
+    {
+        if (currentPage > 1)
+        {
+            currentPage--;
+        }
+    }
+    private int TotalPages()
+    {
+        return (int)Math.Ceiling((double)reviews.Count / reviewsPerPage);
+    }
+    
+}

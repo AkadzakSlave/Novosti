@@ -1,0 +1,105 @@
+﻿@page "/Calculate"
+@using Models
+@rendermode InteractiveServer
+<h3>Calculate</h3>
+
+<div class="result">
+    <input @bind="Text" id="result-box">
+</div>
+<p></p>
+<div class="mContainer">
+    <div class="myBox2" role="group" aria-label="Second group">
+        <button type="button" class="btn btn-success" @onclick="()=> ClickBtnNum(1)">1</button>
+        <button type="button" class="btn btn-success" @onclick="()=> ClickBtnNum(2)">2</button>
+        <button type="button" class="btn btn-success" @onclick="()=> ClickBtnNum(3)">3</button>
+        <button type="button" class="btn btn-outline-primary" @onclick="() => ClickAction(MathActions.Divide, '/')">/</button>
+    </div>
+<div class="myBox2" role="group" aria-label="Second group">
+    <button type="button" class="btn btn-success" @onclick="()=> ClickBtnNum(4)">4</button>
+    <button type="button" class="btn btn-success" @onclick="()=> ClickBtnNum(5)">5</button>
+    <button type="button" class="btn btn-success" @onclick="()=> ClickBtnNum(6)">6</button>
+    <button type="button" class="btn btn-outline-primary" @onclick="() => ClickAction(MathActions.Multiply, '*')">*</button>
+</div>
+<div class="myBox2" role="group" aria-label="Second group">
+        <button type="button" class="btn btn-success" @onclick="()=> ClickBtnNum(7)">7</button>
+        <button type="button" class="btn btn-success" @onclick="()=> ClickBtnNum(8)">8</button>
+        <button type="button" class="btn btn-success" @onclick="()=> ClickBtnNum(9)">9</button>
+        <button type="button" class="btn btn-outline-primary" @onclick="() => ClickAction(MathActions.Subtract, '-')">-</button>
+        </div>
+</div>
+    <div class="myBox2" role="group" aria-label="Second group">
+        <button type="button" class="btn btn-outline-primary" @onclick="() => ClickAction(MathActions.Add, '+')">+</button>
+        <button type="button" class="btn btn-success" @onclick="()=> ClickBtnNum(0)">0</button>
+        <button type="button" class="btn btn-outline-primary" id="total" @onclick="() => Calculation()">=</button>
+        <button type="button" class="btn btn-danger" id="clear" @onclick="() => Clear(0)">AC</button>
+    </div>
+@code {
+    public float Num1 { get; set; }
+    public float Num2 { get; set; }
+    public MathActions Action { get; set; }
+    public string Text = "";
+
+    public Calculate()
+    {
+        Action = MathActions.None;
+    }
+
+    private void ClickBtnNum(double value)
+    {
+        Text += value.ToString();
+        StateHasChanged();
+    }
+
+    private void ClickAction(MathActions action, char mark)
+    {
+        Action = action;
+        Text += mark.ToString();
+    }
+
+    public void Calculation()
+    {
+        string[] digits = Text.Split(new char[] { '+', '-', '*', '/' });
+        var result1 = float.TryParse(digits[0], out var num1);
+        if (result1)
+            Num1 = num1;
+
+        var result2 = float.TryParse(digits[1], out var num2);
+        if (result2)
+            Num2 = num2;
+
+        switch (Action)
+        {
+            case MathActions.Add:
+                Text = (Num1 + Num2).ToString();
+                break;
+            case MathActions.Subtract:
+                Text = (Num1 - Num2).ToString();
+                break;
+            case MathActions.Multiply:
+                Text = (Num1 * Num2).ToString();
+                break;
+            case MathActions.Divide:
+                Text = (Num1 / Num2).ToString();
+                break;
+        }
+        Action = MathActions.None;
+    }
+    void Clear(double x)
+    {
+        switch (x)
+        {
+            case 0:
+                Text = string.Empty;
+                break;
+            case 1:
+                double length = Text.Length - 1;
+                string line = Text;
+                Text = "";
+                for (int i = 0; i < length; i++)
+                {
+                    Text += line[i];
+                }
+                break;
+        }
+    }
+}

@@ -1,0 +1,105 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Models\Models.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Novosti\appsettings.Development.json" />
+      <_ContentIncludedByDefault Remove="Novosti\appsettings.json" />
+      <_ContentIncludedByDefault Remove="Novosti\bin\Debug\net8.0\appsettings.Development.json" />
+      <_ContentIncludedByDefault Remove="Novosti\bin\Debug\net8.0\appsettings.json" />
+      <_ContentIncludedByDefault Remove="Novosti\bin\Debug\net8.0\Novosti.deps.json" />
+      <_ContentIncludedByDefault Remove="Novosti\bin\Debug\net8.0\Novosti.runtimeconfig.json" />
+      <_ContentIncludedByDefault Remove="Novosti\bin\Debug\net8.0\Novosti.staticwebassets.endpoints.json" />
+      <_ContentIncludedByDefault Remove="Novosti\bin\Debug\net8.0\Novosti.staticwebassets.runtime.json" />
+      <_ContentIncludedByDefault Remove="Novosti\bin\Debug\net9.0\appsettings.Development.json" />
+      <_ContentIncludedByDefault Remove="Novosti\bin\Debug\net9.0\appsettings.json" />
+      <_ContentIncludedByDefault Remove="Novosti\bin\Debug\net9.0\mykeeps.json" />
+      <_ContentIncludedByDefault Remove="Novosti\bin\Debug\net9.0\Novosti.deps.json" />
+      <_ContentIncludedByDefault Remove="Novosti\bin\Debug\net9.0\Novosti.runtimeconfig.json" />
+      <_ContentIncludedByDefault Remove="Novosti\bin\Debug\net9.0\Novosti.staticwebassets.endpoints.json" />
+      <_ContentIncludedByDefault Remove="Novosti\bin\Debug\net9.0\Novosti.staticwebassets.runtime.json" />
+      <_ContentIncludedByDefault Remove="Novosti\bin\Debug\net9.0\save.json" />
+      <_ContentIncludedByDefault Remove="Novosti\mykeeps.json" />
+      <_ContentIncludedByDefault Remove="Novosti\obj\Debug\net8.0\staticwebassets.build.endpoints.json" />
+      <_ContentIncludedByDefault Remove="Novosti\obj\Debug\net8.0\staticwebassets.build.json" />
+      <_ContentIncludedByDefault Remove="Novosti\obj\Debug\net8.0\staticwebassets.development.json" />
+      <_ContentIncludedByDefault Remove="Novosti\obj\Debug\net8.0\staticwebassets.pack.json" />
+      <_ContentIncludedByDefault Remove="Novosti\obj\Debug\net9.0\staticwebassets.build.endpoints.json" />
+      <_ContentIncludedByDefault Remove="Novosti\obj\Debug\net9.0\staticwebassets.build.json" />
+      <_ContentIncludedByDefault Remove="Novosti\obj\Debug\net9.0\staticwebassets.development.json" />
+      <_ContentIncludedByDefault Remove="Novosti\obj\Debug\net9.0\staticwebassets.pack.json" />
+      <_ContentIncludedByDefault Remove="Novosti\obj\Novosti.csproj.nuget.dgspec.json" />
+      <_ContentIncludedByDefault Remove="Novosti\obj\project.assets.json" />
+      <_ContentIncludedByDefault Remove="Novosti\obj\project.packagespec.json" />
+      <_ContentIncludedByDefault Remove="Novosti\Properties\launchSettings.json" />
+      <_ContentIncludedByDefault Remove="Novosti\save.json" />
+      <_ContentIncludedByDefault Remove="Novosti\Components\App.razor" />
+      <_ContentIncludedByDefault Remove="Novosti\Components\Layout\MainLayout.razor" />
+      <_ContentIncludedByDefault Remove="Novosti\Components\Layout\NavMenu.razor" />
+      <_ContentIncludedByDefault Remove="Novosti\Components\Pages\Audio.razor" />
+      <_ContentIncludedByDefault Remove="Novosti\Components\Pages\Calculate.razor" />
+      <_ContentIncludedByDefault Remove="Novosti\Components\Pages\Cars.razor" />
+      <_ContentIncludedByDefault Remove="Novosti\Components\Pages\Cart.razor" />
+      <_ContentIncludedByDefault Remove="Novosti\Components\Pages\CookieMarket.razor" />
+      <_ContentIncludedByDefault Remove="Novosti\Components\Pages\Counter.razor" />
+      <_ContentIncludedByDefault Remove="Novosti\Components\Pages\Error.razor" />
+      <_ContentIncludedByDefault Remove="Novosti\Components\Pages\Forms.razor" />
+      <_ContentIncludedByDefault Remove="Novosti\Components\Pages\Home.razor" />
+      <_ContentIncludedByDefault Remove="Novosti\Components\Pages\Links.razor" />
+      <_ContentIncludedByDefault Remove="Novosti\Components\Pages\Market.razor" />
+      <_ContentIncludedByDefault Remove="Novosti\Components\Pages\Page1.razor" />
+      <_ContentIncludedByDefault Remove="Novosti\Components\Pages\Page2.razor" />
+      <_ContentIncludedByDefault Remove="Novosti\Components\Pages\Page3.razor" />
+      <_ContentIncludedByDefault Remove="Novosti\Components\Pages\Page4.razor" />
+      <_ContentIncludedByDefault Remove="Novosti\Components\Pages\Tables.razor" />
+      <_ContentIncludedByDefault Remove="Novosti\Components\Pages\Tasks.razor" />
+      <_ContentIncludedByDefault Remove="Novosti\Components\Pages\Weather.razor" />
+      <_ContentIncludedByDefault Remove="Novosti\Components\Routes.razor" />
+      <_ContentIncludedByDefault Remove="Novosti\Components\_Imports.razor" />
+      <_ContentIncludedByDefault Remove="Models\bin\Debug\net9.0\Models.deps.json" />
+      <_ContentIncludedByDefault Remove="Models\obj\Models.csproj.nuget.dgspec.json" />
+      <_ContentIncludedByDefault Remove="Models\obj\project.assets.json" />
+      <_ContentIncludedByDefault Remove="Models\obj\project.packagespec.json" />
+      <_ContentIncludedByDefault Remove="ClassLibrary1\obj\ClassLibrary1.csproj.nuget.dgspec.json" />
+      <_ContentIncludedByDefault Remove="ClassLibrary1\obj\project.assets.json" />
+      <_ContentIncludedByDefault Remove="ClassLibrary1\obj\project.packagespec.json" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="qodana.yaml" />
+      <None Remove="Models\**" />
+      <None Remove="ClassLibrary1\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="Models\**" />
+      <Compile Remove="ClassLibrary1\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="Models\**" />
+      <EmbeddedResource Remove="ClassLibrary1\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Remove="Models\**" />
+      <Content Remove="ClassLibrary1\**" />
+    </ItemGroup>
+
+   
+    
+
+</Project>

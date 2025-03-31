@@ -1,0 +1,74 @@
+﻿@page "/Audio"
+@using System.Collections.Generic
+@rendermode InteractiveServer
+<h3>Audio Player</h3>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+
+<audio controls>
+    <source src="Song/Drumedy.mp3" type="audio/mpeg" />
+</audio>
+
+<h3>Классификация по возрасту</h3>
+
+<div class="mb-3">
+    <label for="name">Имя:</label>
+    <input type="text" id="name" @bind="name" class="form-control" />
+</div>
+<div class="mb-3">
+    <label for="age">Возраст:</label>
+    <input type="number" id="age" @bind="age" class="form-control" min="1" />
+</div>
+<button class="btn btn-primary" @onclick="AddPerson">Добавить</button>
+
+<table class="table mt-3">
+    <thead>
+    <tr>
+        <th>Имя</th>
+        <th>Возраст</th>
+        <th>Категория</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var person in people)
+    {
+        <tr>
+            <td>@person.Name</td>
+            <td>@person.Age</td>
+            <td>@person.Category</td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+@code {
+    private string name;
+    private int age;
+    private List<Person> people = new List<Person>();
+
+    private void AddPerson()
+    {
+        if (!string.IsNullOrWhiteSpace(name) && age > 0)
+        {
+            var category = GetCategory(age);
+            people.Add(new Person { Name = name, Age = age, Category = category });
+            name = string.Empty;
+            age = 0; 
+        }
+    }
+
+    private string GetCategory(int age)
+    {
+        if (age >= 1 && age <= 12) return "Ребёнок";
+        if (age >= 13 && age <= 18) return "Подросток";
+        if (age >= 19 && age <= 45) return "Взрослый";
+        if (age >= 46 && age <= 122) return "Старик";
+         return "Умер наверное";
+    }
+
+    private class Person
+    {
+        public string Name { get; set; }
+        public int Age { get; set; }
+        public string Category { get; set; }
+    }
+}

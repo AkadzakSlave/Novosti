@@ -1,0 +1,1052 @@
+{
+  "Version": 1,
+  "Hash": "WBGTYB6OaAhH9DCBcZgPcVs02DpmyCw0xHSRdgF2fSA=",
+  "Source": "Novosti",
+  "BasePath": "_content/Novosti",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Novosti\\wwwroot",
+      "Source": "Novosti",
+      "ContentRoot": "C:\\Users\\user\\Downloads\\Novosti\\Novosti\\wwwroot\\",
+      "BasePath": "_content/Novosti",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\user\\Downloads\\Novosti\\Novosti\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Novosti.styles.css",
+      "SourceId": "Novosti",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\user\\Downloads\\Novosti\\Novosti\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/Novosti",
+      "RelativePath": "Novosti#[.{fingerprint}]?.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "dm8y2llgha",
+      "Integrity": "JWa0XtZye14VKGS4H8vxPqRshlAgnIj3owwYLXAZiyI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\user\\Downloads\\Novosti\\Novosti\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Novosti.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\user\\Downloads\\Novosti\\Novosti\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Novosti.bundle.scp.css",
+      "SourceId": "Novosti",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\user\\Downloads\\Novosti\\Novosti\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/Novosti",
+      "RelativePath": "Novosti#[.{fingerprint}]!.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "dm8y2llgha",
+      "Integrity": "JWa0XtZye14VKGS4H8vxPqRshlAgnIj3owwYLXAZiyI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\user\\Downloads\\Novosti\\Novosti\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Novosti.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\user\\Downloads\\Novosti\\Novosti\\wwwroot\\app.css",
+      "SourceId": "Novosti",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Downloads\\Novosti\\Novosti\\wwwroot\\",
+      "BasePath": "_content/Novosti",
+      "RelativePath": "app#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2kvrljl1tl",
+      "Integrity": "gslDU0Jkof1pDmYxYxu3JjXpWu8HUmEHsMFuBcFGM1A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\app.css"
+    },
+    {
+      "Identity": "C:\\Users\\user\\Downloads\\Novosti\\Novosti\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "SourceId": "Novosti",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Downloads\\Novosti\\Novosti\\wwwroot\\",
+      "BasePath": "_content/Novosti",
+      "RelativePath": "bootstrap/bootstrap.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6gzpyzhau4",
+      "Integrity": "SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\user\\Downloads\\Novosti\\Novosti\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "SourceId": "Novosti",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Downloads\\Novosti\\Novosti\\wwwroot\\",
+      "BasePath": "_content/Novosti",
+      "RelativePath": "bootstrap/bootstrap.min.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8inm30yfxf",
+      "Integrity": "gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\user\\Downloads\\Novosti\\Novosti\\wwwroot\\favicon.png",
+      "SourceId": "Novosti",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Downloads\\Novosti\\Novosti\\wwwroot\\",
+      "BasePath": "_content/Novosti",
+      "RelativePath": "favicon#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ifv42okdf2",
+      "Integrity": "4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.png"
+    },
+    {
+      "Identity": "C:\\Users\\user\\Downloads\\Novosti\\Novosti\\wwwroot\\Images\\News1Image.png",
+      "SourceId": "Novosti",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Downloads\\Novosti\\Novosti\\wwwroot\\",
+      "BasePath": "_content/Novosti",
+      "RelativePath": "Images/News1Image#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "091kkvjcz9",
+      "Integrity": "VOM4Cw8x7gBAR8Q0/AeZ6JZ20T7TFWHiFeFIx7cQqEc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\News1Image.png"
+    },
+    {
+      "Identity": "C:\\Users\\user\\Downloads\\Novosti\\Novosti\\wwwroot\\Images\\News2Image.png",
+      "SourceId": "Novosti",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Downloads\\Novosti\\Novosti\\wwwroot\\",
+      "BasePath": "_content/Novosti",
+      "RelativePath": "Images/News2Image#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1ytmtlpend",
+      "Integrity": "5/3NV2GTIqCgFlfLICWShoDn4zWxyk7V7CfaDTXouSc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\News2Image.png"
+    },
+    {
+      "Identity": "C:\\Users\\user\\Downloads\\Novosti\\Novosti\\wwwroot\\Images\\News3Image.png",
+      "SourceId": "Novosti",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Downloads\\Novosti\\Novosti\\wwwroot\\",
+      "BasePath": "_content/Novosti",
+      "RelativePath": "Images/News3Image#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "p02ttzniy4",
+      "Integrity": "eUhNm4VThgdK9KtyOlfv+bGmsxmC45ULSkBa/Cdo7nk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\News3Image.png"
+    },
+    {
+      "Identity": "C:\\Users\\user\\Downloads\\Novosti\\Novosti\\wwwroot\\Images\\News4Image.png",
+      "SourceId": "Novosti",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Downloads\\Novosti\\Novosti\\wwwroot\\",
+      "BasePath": "_content/Novosti",
+      "RelativePath": "Images/News4Image#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "j2i86t1k5f",
+      "Integrity": "hYg+DdGjuZSdV+NGsbHZP8vWth9uyGg4ywoqtKGe7J0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\News4Image.png"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "app.2kvrljl1tl.css",
+      "AssetFile": "C:\\Users\\user\\Downloads\\Novosti\\Novosti\\wwwroot\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3246"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gslDU0Jkof1pDmYxYxu3JjXpWu8HUmEHsMFuBcFGM1A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 28 Jan 2025 05:30:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2kvrljl1tl"
+        },
+        {
+          "Name": "label",
+          "Value": "app.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gslDU0Jkof1pDmYxYxu3JjXpWu8HUmEHsMFuBcFGM1A="
+        }
+      ]
+    },
+    {
+      "Route": "app.css",
+      "AssetFile": "C:\\Users\\user\\Downloads\\Novosti\\Novosti\\wwwroot\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3246"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gslDU0Jkof1pDmYxYxu3JjXpWu8HUmEHsMFuBcFGM1A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 28 Jan 2025 05:30:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gslDU0Jkof1pDmYxYxu3JjXpWu8HUmEHsMFuBcFGM1A="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.6gzpyzhau4.css",
+      "AssetFile": "C:\\Users\\user\\Downloads\\Novosti\\Novosti\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162726"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 27 Jan 2025 13:06:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6gzpyzhau4"
+        },
+        {
+          "Name": "label",
+          "Value": "bootstrap/bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css",
+      "AssetFile": "C:\\Users\\user\\Downloads\\Novosti\\Novosti\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162726"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 27 Jan 2025 13:06:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css.8inm30yfxf.map",
+      "AssetFile": "C:\\Users\\user\\Downloads\\Novosti\\Novosti\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 27 Jan 2025 13:06:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8inm30yfxf"
+        },
+        {
+          "Name": "label",
+          "Value": "bootstrap/bootstrap.min.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\user\\Downloads\\Novosti\\Novosti\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 27 Jan 2025 13:06:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.ifv42okdf2.png",
+      "AssetFile": "C:\\Users\\user\\Downloads\\Novosti\\Novosti\\wwwroot\\favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 27 Jan 2025 13:06:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ifv42okdf2"
+        },
+        {
+          "Name": "label",
+          "Value": "favicon.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.png",
+      "AssetFile": "C:\\Users\\user\\Downloads\\Novosti\\Novosti\\wwwroot\\favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 27 Jan 2025 13:06:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
+    },
+    {
+      "Route": "Images/News1Image.091kkvjcz9.png",
+      "AssetFile": "C:\\Users\\user\\Downloads\\Novosti\\Novosti\\wwwroot\\Images\\News1Image.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "130430"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VOM4Cw8x7gBAR8Q0/AeZ6JZ20T7TFWHiFeFIx7cQqEc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 27 Jan 2025 09:48:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "091kkvjcz9"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/News1Image.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VOM4Cw8x7gBAR8Q0/AeZ6JZ20T7TFWHiFeFIx7cQqEc="
+        }
+      ]
+    },
+    {
+      "Route": "Images/News1Image.png",
+      "AssetFile": "C:\\Users\\user\\Downloads\\Novosti\\Novosti\\wwwroot\\Images\\News1Image.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "130430"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VOM4Cw8x7gBAR8Q0/AeZ6JZ20T7TFWHiFeFIx7cQqEc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 27 Jan 2025 09:48:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VOM4Cw8x7gBAR8Q0/AeZ6JZ20T7TFWHiFeFIx7cQqEc="
+        }
+      ]
+    },
+    {
+      "Route": "Images/News2Image.1ytmtlpend.png",
+      "AssetFile": "C:\\Users\\user\\Downloads\\Novosti\\Novosti\\wwwroot\\Images\\News2Image.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "177571"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5/3NV2GTIqCgFlfLICWShoDn4zWxyk7V7CfaDTXouSc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 27 Jan 2025 09:48:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1ytmtlpend"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/News2Image.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5/3NV2GTIqCgFlfLICWShoDn4zWxyk7V7CfaDTXouSc="
+        }
+      ]
+    },
+    {
+      "Route": "Images/News2Image.png",
+      "AssetFile": "C:\\Users\\user\\Downloads\\Novosti\\Novosti\\wwwroot\\Images\\News2Image.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "177571"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5/3NV2GTIqCgFlfLICWShoDn4zWxyk7V7CfaDTXouSc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 27 Jan 2025 09:48:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5/3NV2GTIqCgFlfLICWShoDn4zWxyk7V7CfaDTXouSc="
+        }
+      ]
+    },
+    {
+      "Route": "Images/News3Image.p02ttzniy4.png",
+      "AssetFile": "C:\\Users\\user\\Downloads\\Novosti\\Novosti\\wwwroot\\Images\\News3Image.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "208064"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eUhNm4VThgdK9KtyOlfv+bGmsxmC45ULSkBa/Cdo7nk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 27 Jan 2025 09:48:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p02ttzniy4"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/News3Image.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eUhNm4VThgdK9KtyOlfv+bGmsxmC45ULSkBa/Cdo7nk="
+        }
+      ]
+    },
+    {
+      "Route": "Images/News3Image.png",
+      "AssetFile": "C:\\Users\\user\\Downloads\\Novosti\\Novosti\\wwwroot\\Images\\News3Image.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "208064"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eUhNm4VThgdK9KtyOlfv+bGmsxmC45ULSkBa/Cdo7nk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 27 Jan 2025 09:48:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-eUhNm4VThgdK9KtyOlfv+bGmsxmC45ULSkBa/Cdo7nk="
+        }
+      ]
+    },
+    {
+      "Route": "Images/News4Image.j2i86t1k5f.png",
+      "AssetFile": "C:\\Users\\user\\Downloads\\Novosti\\Novosti\\wwwroot\\Images\\News4Image.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "193201"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hYg+DdGjuZSdV+NGsbHZP8vWth9uyGg4ywoqtKGe7J0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 27 Jan 2025 09:48:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j2i86t1k5f"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/News4Image.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hYg+DdGjuZSdV+NGsbHZP8vWth9uyGg4ywoqtKGe7J0="
+        }
+      ]
+    },
+    {
+      "Route": "Images/News4Image.png",
+      "AssetFile": "C:\\Users\\user\\Downloads\\Novosti\\Novosti\\wwwroot\\Images\\News4Image.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "193201"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hYg+DdGjuZSdV+NGsbHZP8vWth9uyGg4ywoqtKGe7J0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 27 Jan 2025 09:48:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hYg+DdGjuZSdV+NGsbHZP8vWth9uyGg4ywoqtKGe7J0="
+        }
+      ]
+    },
+    {
+      "Route": "Novosti.bundle.scp.css",
+      "AssetFile": "C:\\Users\\user\\Downloads\\Novosti\\Novosti\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Novosti.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5897"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JWa0XtZye14VKGS4H8vxPqRshlAgnIj3owwYLXAZiyI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 27 Jan 2025 13:09:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JWa0XtZye14VKGS4H8vxPqRshlAgnIj3owwYLXAZiyI="
+        }
+      ]
+    },
+    {
+      "Route": "Novosti.dm8y2llgha.bundle.scp.css",
+      "AssetFile": "C:\\Users\\user\\Downloads\\Novosti\\Novosti\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Novosti.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5897"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JWa0XtZye14VKGS4H8vxPqRshlAgnIj3owwYLXAZiyI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 27 Jan 2025 13:09:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dm8y2llgha"
+        },
+        {
+          "Name": "label",
+          "Value": "Novosti.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JWa0XtZye14VKGS4H8vxPqRshlAgnIj3owwYLXAZiyI="
+        }
+      ]
+    },
+    {
+      "Route": "Novosti.dm8y2llgha.styles.css",
+      "AssetFile": "C:\\Users\\user\\Downloads\\Novosti\\Novosti\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Novosti.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5897"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JWa0XtZye14VKGS4H8vxPqRshlAgnIj3owwYLXAZiyI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 27 Jan 2025 13:09:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dm8y2llgha"
+        },
+        {
+          "Name": "label",
+          "Value": "Novosti.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JWa0XtZye14VKGS4H8vxPqRshlAgnIj3owwYLXAZiyI="
+        }
+      ]
+    },
+    {
+      "Route": "Novosti.styles.css",
+      "AssetFile": "C:\\Users\\user\\Downloads\\Novosti\\Novosti\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Novosti.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5897"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JWa0XtZye14VKGS4H8vxPqRshlAgnIj3owwYLXAZiyI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 27 Jan 2025 13:09:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JWa0XtZye14VKGS4H8vxPqRshlAgnIj3owwYLXAZiyI="
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+﻿@page "/Tables"
+@using Models
+@rendermode InteractiveServer
+<h3>Tables</h3>
+
+<table class="table table-bordered w-50 table-hover">
+    
+    <thead class="table-danger">
+    <tr>
+        <td>
+            <b>Фамилия Имя Очество</b>
+        </td>
+        <td>
+            <b>Стаж</b>
+        </td>
+        <td>
+            <b>Должность</b>
+        </td>
+        <td>
+            <b>Дата начала работы</b>
+        </td>
+    </tr>
+    </thead>
+
+    <tbody  class="table-warning">
+    <tr>
+        <td>Федоров Илья Иванович</td>
+        <td>5 лет</td>
+        <td>Генсек</td>
+        <td>01.12.2007</td>
+    </tr>
+    <tr>
+        <td>Петрова Алина Алексеевна</td>
+        <td>7 лет</td>
+        <td>Кассир</td>
+        <td>01.12.2007</td>
+    </tr>
+    <tr>
+        <td>Мунзафаров Камиль Шамильевич</td>
+        <td>80 лет</td>
+        <td>Мудрец</td>
+        <td>01.12.0001</td>
+    </tr>
+    </tbody>
+    <tbody class="table-success">
+    @foreach (var item in Employers)
+    {
+        <tr>
+            <td>@item.Name</td>
+            <td>@item.YearExp</td>
+            <td>@item.Jobtitle</td>
+            <td>@item.DateOfStart</td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+<fieldset>
+    <legend>Legend</legend>
+    <p>
+        <label>Label</label>
+        <input type="text" placeholder="placeholder">
+    </p>
+    <p>
+        <label>Range</label>
+        <input type="range" min="0" max="10">
+    </p>
+    <p>
+        <label>Number</label>
+        <input type="number" >
+    </p>
+    <p>
+        <label>Select</label>
+        <select id="select">
+            <option value>Choose...</option>
+            <optgroup label="OptGroup 1">
+                <option value>opt 1</option>
+                <option value>opt 2</option>
+                <option value>opt 3</option>
+            </optgroup>
+            <optgroup label="OptGroup 2">
+                <option value>opt 4</option>
+                <option value>opt 5</option>
+                <option value>opt 6</option>
+            </optgroup>
+        </select>
+    </p>
+    <p>
+        <label>
+            <input type="radio" name="OptRadios" value="opt1" checked>
+            Opt 1 
+        </label>
+        <label>
+            <input type="radio" name="OptRadios" value="opt2" >
+            Opt 2
+        </label>
+        <label>
+            <input type="radio" name="OptRadios" value="opt3" disabled>
+            Opt Disabled
+        </label>
+    </p>
+    <p>
+        <label for="date">Date</label>
+        <input type="date">
+    </p>
+    <p>
+        <label for="color">Color </label>
+        <input type="color">
+    </p>
+    <p>
+        <label for="password">Password</label>
+        <input type="password">
+    </p>
+    <p>
+        <label for="file">File</label>
+        <input type="file">
+    </p>
+    <p>
+        <label for="checkbox">Checkbox</label>
+        <input type="checkbox">
+    </p>
+    <p>
+        <button type="submit">submit</button>
+    </p>
+</fieldset>
+@code {
+    public IList<Employers> Employers { get; set; } = new List<Employers>();
+
+    protected override void OnInitialized()
+    {
+        var Fedorov = new Employers()
+        {
+            Name = "Федоров И.И.",
+            Jobtitle = "Генсек",
+            DateOfStart = "02.02.1999 №12-сп",
+            YearExp = 2
+        };
+        var Petrova = new Employers()
+        {
+            Name = "Петрова. А.А.",
+            Jobtitle = "Кассир",
+            DateOfStart = "03.12.2000 №23-5ка",
+            YearExp = 7
+        };
+        var Munzafarov = new Employers()
+        {
+            Name = "Мунзафаров К.Ш.",
+            Jobtitle = "Мудрец",
+            DateOfStart = "01.01.0001",
+            YearExp = 2000
+        };
+        Employers.Add(Fedorov);
+        Employers.Add(Petrova);
+        Employers.Add(Munzafarov);
+        base.OnInitialized();
+    }
+}

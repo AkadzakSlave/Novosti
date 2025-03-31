@@ -1,0 +1,3432 @@
+{
+  "Version": 1,
+  "Hash": "cEczAKa/Mkmoc3WckO0wQTGTy0JXDV+PYrxu+Y93R9s=",
+  "Source": "Novosti",
+  "BasePath": "_content/Novosti",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Novosti\\wwwroot",
+      "Source": "Novosti",
+      "ContentRoot": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\",
+      "BasePath": "_content/Novosti",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\obj\\Debug\\net9.0\\compressed\\11roftssr0-8inm30yfxf.gz",
+      "SourceId": "Novosti",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Novosti",
+      "RelativePath": "bootstrap/bootstrap.min.css#[.{fingerprint=8inm30yfxf}]?.map.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "m532s4naxw",
+      "Integrity": "epiz+IkftKdCVrNwM3M3b4/Co3mxoqDpjOfMrHfv/7E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\obj\\Debug\\net9.0\\compressed\\3wdiza98cr-n3jx9ffqoy.gz",
+      "SourceId": "Novosti",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Novosti",
+      "RelativePath": "bootstrap/bootstrap.min#[.{fingerprint=n3jx9ffqoy}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "zwz87hys63",
+      "Integrity": "LS3AuL6BDOTG9UauneghkK8ueXhEeYvcBK4pSQSv0vc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\obj\\Debug\\net9.0\\compressed\\45n829duu2-dm8y2llgha.gz",
+      "SourceId": "Novosti",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Novosti",
+      "RelativePath": "Novosti#[.{fingerprint=dm8y2llgha}]!.bundle.scp.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Novosti.bundle.scp.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "wkgpq4e8l0",
+      "Integrity": "MOpgugvaS/gODusNyhVk1DQjGM9qxF0G1ankpHrvtbE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Novosti.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\obj\\Debug\\net9.0\\compressed\\4vyl2kta32-dm8y2llgha.gz",
+      "SourceId": "Novosti",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Novosti",
+      "RelativePath": "Novosti#[.{fingerprint=dm8y2llgha}]?.styles.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\obj\\Debug\\net9.0\\scopedcss\\bundle\\Novosti.styles.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "wkgpq4e8l0",
+      "Integrity": "MOpgugvaS/gODusNyhVk1DQjGM9qxF0G1ankpHrvtbE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\obj\\Debug\\net9.0\\scopedcss\\bundle\\Novosti.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\obj\\Debug\\net9.0\\compressed\\sum6bb621s-1gxhrh048n.gz",
+      "SourceId": "Novosti",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Novosti",
+      "RelativePath": "index#[.{fingerprint=1gxhrh048n}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\index.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "3l795acpif",
+      "Integrity": "pxtoD4e/P2EUQ17w42xK+Kw45x1BA7nZjRN0Px7OXwQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\obj\\Debug\\net9.0\\compressed\\tp68ab71q6-5et9fdeeov.gz",
+      "SourceId": "Novosti",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Novosti",
+      "RelativePath": "app#[.{fingerprint=5et9fdeeov}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\app.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "meq8ul9szq",
+      "Integrity": "Uub3QGFRcp3s/VrxLQ7MjJnfRZf07V51+ViWuC6489A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\app.css"
+    },
+    {
+      "Identity": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\obj\\Debug\\net9.0\\compressed\\vptskxy957-0cj1gkn81f.gz",
+      "SourceId": "Novosti",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Novosti",
+      "RelativePath": "canvas#[.{fingerprint=0cj1gkn81f}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\canvas.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "xd6b5fq6zl",
+      "Integrity": "6ylEieyQ212gpI9mmdvamH0pnBgVzpfwo06wK6+tAsA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\canvas.js"
+    },
+    {
+      "Identity": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\obj\\Debug\\net9.0\\scopedcss\\bundle\\Novosti.styles.css",
+      "SourceId": "Novosti",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\obj\\Debug\\net9.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/Novosti",
+      "RelativePath": "Novosti#[.{fingerprint}]?.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "dm8y2llgha",
+      "Integrity": "JWa0XtZye14VKGS4H8vxPqRshlAgnIj3owwYLXAZiyI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\obj\\Debug\\net9.0\\scopedcss\\bundle\\Novosti.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Novosti.bundle.scp.css",
+      "SourceId": "Novosti",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/Novosti",
+      "RelativePath": "Novosti#[.{fingerprint}]!.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "dm8y2llgha",
+      "Integrity": "JWa0XtZye14VKGS4H8vxPqRshlAgnIj3owwYLXAZiyI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Novosti.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\app.css",
+      "SourceId": "Novosti",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\",
+      "BasePath": "_content/Novosti",
+      "RelativePath": "app#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5et9fdeeov",
+      "Integrity": "898vEALcNbm9G6npWZwrbjeh98az+RYULmvELxad6Iw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\app.css"
+    },
+    {
+      "Identity": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "SourceId": "Novosti",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\",
+      "BasePath": "_content/Novosti",
+      "RelativePath": "bootstrap/bootstrap.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "n3jx9ffqoy",
+      "Integrity": "85MCD0h7bi0WobIwOd9+5c3NDZ+tR0pyLuwZDq26X8s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "SourceId": "Novosti",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\",
+      "BasePath": "_content/Novosti",
+      "RelativePath": "bootstrap/bootstrap.min.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8inm30yfxf",
+      "Integrity": "gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\canvas.js",
+      "SourceId": "Novosti",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\",
+      "BasePath": "_content/Novosti",
+      "RelativePath": "canvas#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0cj1gkn81f",
+      "Integrity": "4Jdm5g2Mw4bbV4xeDBgX1PC3VK7kor6op3C5vCOo5oE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\canvas.js"
+    },
+    {
+      "Identity": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\favicon.png",
+      "SourceId": "Novosti",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\",
+      "BasePath": "_content/Novosti",
+      "RelativePath": "favicon#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ifv42okdf2",
+      "Integrity": "4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.png"
+    },
+    {
+      "Identity": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\Images\\1519171567_6xAfr45m0gweCG8Ja.gif",
+      "SourceId": "Novosti",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\",
+      "BasePath": "_content/Novosti",
+      "RelativePath": "Images/1519171567_6xAfr45m0gweCG8Ja#[.{fingerprint}]?.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cne4ikhtq1",
+      "Integrity": "KJXQQA4KfHE3CXqaiRs7Ic9SFmtrcN8FUeACKu21ms4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\1519171567_6xAfr45m0gweCG8Ja.gif"
+    },
+    {
+      "Identity": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\Images\\cookie_basic.png",
+      "SourceId": "Novosti",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\",
+      "BasePath": "_content/Novosti",
+      "RelativePath": "Images/cookie_basic#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "00epmtxixf",
+      "Integrity": "4PK2FvPwYPylK99/fqOTCDYRGiHWFwUGMJEBB77MTs8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\cookie_basic.png"
+    },
+    {
+      "Identity": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\Images\\dark_cookie.png",
+      "SourceId": "Novosti",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\",
+      "BasePath": "_content/Novosti",
+      "RelativePath": "Images/dark_cookie#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lghmtu4e1f",
+      "Integrity": "5TY3mNgiIDZZdXooSO7pNNInARluRstX8MBguzqci+c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\dark_cookie.png"
+    },
+    {
+      "Identity": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\Images\\News1Image.png",
+      "SourceId": "Novosti",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\",
+      "BasePath": "_content/Novosti",
+      "RelativePath": "Images/News1Image#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "091kkvjcz9",
+      "Integrity": "VOM4Cw8x7gBAR8Q0/AeZ6JZ20T7TFWHiFeFIx7cQqEc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\News1Image.png"
+    },
+    {
+      "Identity": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\Images\\News2Image.png",
+      "SourceId": "Novosti",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\",
+      "BasePath": "_content/Novosti",
+      "RelativePath": "Images/News2Image#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1ytmtlpend",
+      "Integrity": "5/3NV2GTIqCgFlfLICWShoDn4zWxyk7V7CfaDTXouSc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\News2Image.png"
+    },
+    {
+      "Identity": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\Images\\News3Image.png",
+      "SourceId": "Novosti",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\",
+      "BasePath": "_content/Novosti",
+      "RelativePath": "Images/News3Image#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "p02ttzniy4",
+      "Integrity": "eUhNm4VThgdK9KtyOlfv+bGmsxmC45ULSkBa/Cdo7nk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\News3Image.png"
+    },
+    {
+      "Identity": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\Images\\News4Image.png",
+      "SourceId": "Novosti",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\",
+      "BasePath": "_content/Novosti",
+      "RelativePath": "Images/News4Image#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "j2i86t1k5f",
+      "Integrity": "hYg+DdGjuZSdV+NGsbHZP8vWth9uyGg4ywoqtKGe7J0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\News4Image.png"
+    },
+    {
+      "Identity": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\Images\\shopping-cart.png",
+      "SourceId": "Novosti",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\",
+      "BasePath": "_content/Novosti",
+      "RelativePath": "Images/shopping-cart#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "c2eeakqqkr",
+      "Integrity": "TIc2A7i5GyLFJzu/r8ncZVPj/EjBTxozczJSCQ/Mb7o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\shopping-cart.png"
+    },
+    {
+      "Identity": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\index.html",
+      "SourceId": "Novosti",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\",
+      "BasePath": "_content/Novosti",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1gxhrh048n",
+      "Integrity": "b119q/Tr73mkxnEihyFToj6Tp6uzfeAR1W7eDKXelII=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\Song\\Drumedy.mp3",
+      "SourceId": "Novosti",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\",
+      "BasePath": "_content/Novosti",
+      "RelativePath": "Song/Drumedy#[.{fingerprint}]?.mp3",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "esszf5uic3",
+      "Integrity": "fn+reb+BdvBpRIPldw6/jU+o4oqW9mB/ric7jpxmNyo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Song\\Drumedy.mp3"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "app.5et9fdeeov.css",
+      "AssetFile": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\obj\\Debug\\net9.0\\compressed\\tp68ab71q6-5et9fdeeov.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000547345375"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1826"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Uub3QGFRcp3s/VrxLQ7MjJnfRZf07V51+ViWuC6489A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 06:54:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"898vEALcNbm9G6npWZwrbjeh98az+RYULmvELxad6Iw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5et9fdeeov"
+        },
+        {
+          "Name": "label",
+          "Value": "app.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-898vEALcNbm9G6npWZwrbjeh98az+RYULmvELxad6Iw="
+        }
+      ]
+    },
+    {
+      "Route": "app.5et9fdeeov.css",
+      "AssetFile": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3681"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"898vEALcNbm9G6npWZwrbjeh98az+RYULmvELxad6Iw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 06:54:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5et9fdeeov"
+        },
+        {
+          "Name": "label",
+          "Value": "app.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-898vEALcNbm9G6npWZwrbjeh98az+RYULmvELxad6Iw="
+        }
+      ]
+    },
+    {
+      "Route": "app.5et9fdeeov.css.gz",
+      "AssetFile": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\obj\\Debug\\net9.0\\compressed\\tp68ab71q6-5et9fdeeov.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1826"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Uub3QGFRcp3s/VrxLQ7MjJnfRZf07V51+ViWuC6489A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 06:54:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5et9fdeeov"
+        },
+        {
+          "Name": "label",
+          "Value": "app.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Uub3QGFRcp3s/VrxLQ7MjJnfRZf07V51+ViWuC6489A="
+        }
+      ]
+    },
+    {
+      "Route": "app.css",
+      "AssetFile": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\obj\\Debug\\net9.0\\compressed\\tp68ab71q6-5et9fdeeov.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000547345375"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1826"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Uub3QGFRcp3s/VrxLQ7MjJnfRZf07V51+ViWuC6489A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 06:54:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"898vEALcNbm9G6npWZwrbjeh98az+RYULmvELxad6Iw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-898vEALcNbm9G6npWZwrbjeh98az+RYULmvELxad6Iw="
+        }
+      ]
+    },
+    {
+      "Route": "app.css",
+      "AssetFile": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3681"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"898vEALcNbm9G6npWZwrbjeh98az+RYULmvELxad6Iw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 06:54:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-898vEALcNbm9G6npWZwrbjeh98az+RYULmvELxad6Iw="
+        }
+      ]
+    },
+    {
+      "Route": "app.css.gz",
+      "AssetFile": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\obj\\Debug\\net9.0\\compressed\\tp68ab71q6-5et9fdeeov.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1826"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Uub3QGFRcp3s/VrxLQ7MjJnfRZf07V51+ViWuC6489A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 06:54:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Uub3QGFRcp3s/VrxLQ7MjJnfRZf07V51+ViWuC6489A="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css",
+      "AssetFile": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\obj\\Debug\\net9.0\\compressed\\3wdiza98cr-n3jx9ffqoy.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000042242217"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23672"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LS3AuL6BDOTG9UauneghkK8ueXhEeYvcBK4pSQSv0vc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 09:38:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"85MCD0h7bi0WobIwOd9+5c3NDZ+tR0pyLuwZDq26X8s=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-85MCD0h7bi0WobIwOd9+5c3NDZ+tR0pyLuwZDq26X8s="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css",
+      "AssetFile": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162486"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"85MCD0h7bi0WobIwOd9+5c3NDZ+tR0pyLuwZDq26X8s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 09:38:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-85MCD0h7bi0WobIwOd9+5c3NDZ+tR0pyLuwZDq26X8s="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css.8inm30yfxf.map",
+      "AssetFile": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\obj\\Debug\\net9.0\\compressed\\11roftssr0-8inm30yfxf.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000013397104"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "74642"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"epiz+IkftKdCVrNwM3M3b4/Co3mxoqDpjOfMrHfv/7E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 27 Jan 2025 13:06:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8inm30yfxf"
+        },
+        {
+          "Name": "label",
+          "Value": "bootstrap/bootstrap.min.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css.8inm30yfxf.map",
+      "AssetFile": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 27 Jan 2025 13:06:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8inm30yfxf"
+        },
+        {
+          "Name": "label",
+          "Value": "bootstrap/bootstrap.min.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css.8inm30yfxf.map.gz",
+      "AssetFile": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\obj\\Debug\\net9.0\\compressed\\11roftssr0-8inm30yfxf.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "74642"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"epiz+IkftKdCVrNwM3M3b4/Co3mxoqDpjOfMrHfv/7E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 27 Jan 2025 13:06:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8inm30yfxf"
+        },
+        {
+          "Name": "label",
+          "Value": "bootstrap/bootstrap.min.css.map.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-epiz+IkftKdCVrNwM3M3b4/Co3mxoqDpjOfMrHfv/7E="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css.gz",
+      "AssetFile": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\obj\\Debug\\net9.0\\compressed\\3wdiza98cr-n3jx9ffqoy.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23672"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LS3AuL6BDOTG9UauneghkK8ueXhEeYvcBK4pSQSv0vc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 09:38:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LS3AuL6BDOTG9UauneghkK8ueXhEeYvcBK4pSQSv0vc="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\obj\\Debug\\net9.0\\compressed\\11roftssr0-8inm30yfxf.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000013397104"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "74642"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"epiz+IkftKdCVrNwM3M3b4/Co3mxoqDpjOfMrHfv/7E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 27 Jan 2025 13:06:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 27 Jan 2025 13:06:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css.map.gz",
+      "AssetFile": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\obj\\Debug\\net9.0\\compressed\\11roftssr0-8inm30yfxf.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "74642"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"epiz+IkftKdCVrNwM3M3b4/Co3mxoqDpjOfMrHfv/7E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 27 Jan 2025 13:06:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-epiz+IkftKdCVrNwM3M3b4/Co3mxoqDpjOfMrHfv/7E="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.n3jx9ffqoy.css",
+      "AssetFile": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\obj\\Debug\\net9.0\\compressed\\3wdiza98cr-n3jx9ffqoy.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000042242217"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23672"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LS3AuL6BDOTG9UauneghkK8ueXhEeYvcBK4pSQSv0vc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 09:38:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"85MCD0h7bi0WobIwOd9+5c3NDZ+tR0pyLuwZDq26X8s=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "n3jx9ffqoy"
+        },
+        {
+          "Name": "label",
+          "Value": "bootstrap/bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-85MCD0h7bi0WobIwOd9+5c3NDZ+tR0pyLuwZDq26X8s="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.n3jx9ffqoy.css",
+      "AssetFile": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162486"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"85MCD0h7bi0WobIwOd9+5c3NDZ+tR0pyLuwZDq26X8s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 09:38:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "n3jx9ffqoy"
+        },
+        {
+          "Name": "label",
+          "Value": "bootstrap/bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-85MCD0h7bi0WobIwOd9+5c3NDZ+tR0pyLuwZDq26X8s="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.n3jx9ffqoy.css.gz",
+      "AssetFile": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\obj\\Debug\\net9.0\\compressed\\3wdiza98cr-n3jx9ffqoy.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23672"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LS3AuL6BDOTG9UauneghkK8ueXhEeYvcBK4pSQSv0vc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 09:38:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "n3jx9ffqoy"
+        },
+        {
+          "Name": "label",
+          "Value": "bootstrap/bootstrap.min.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LS3AuL6BDOTG9UauneghkK8ueXhEeYvcBK4pSQSv0vc="
+        }
+      ]
+    },
+    {
+      "Route": "canvas.0cj1gkn81f.js",
+      "AssetFile": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\obj\\Debug\\net9.0\\compressed\\vptskxy957-0cj1gkn81f.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002849002849"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "350"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6ylEieyQ212gpI9mmdvamH0pnBgVzpfwo06wK6+tAsA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 13:43:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"4Jdm5g2Mw4bbV4xeDBgX1PC3VK7kor6op3C5vCOo5oE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0cj1gkn81f"
+        },
+        {
+          "Name": "label",
+          "Value": "canvas.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4Jdm5g2Mw4bbV4xeDBgX1PC3VK7kor6op3C5vCOo5oE="
+        }
+      ]
+    },
+    {
+      "Route": "canvas.0cj1gkn81f.js",
+      "AssetFile": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\canvas.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "713"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4Jdm5g2Mw4bbV4xeDBgX1PC3VK7kor6op3C5vCOo5oE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 13:43:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0cj1gkn81f"
+        },
+        {
+          "Name": "label",
+          "Value": "canvas.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4Jdm5g2Mw4bbV4xeDBgX1PC3VK7kor6op3C5vCOo5oE="
+        }
+      ]
+    },
+    {
+      "Route": "canvas.0cj1gkn81f.js.gz",
+      "AssetFile": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\obj\\Debug\\net9.0\\compressed\\vptskxy957-0cj1gkn81f.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "350"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6ylEieyQ212gpI9mmdvamH0pnBgVzpfwo06wK6+tAsA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 13:43:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0cj1gkn81f"
+        },
+        {
+          "Name": "label",
+          "Value": "canvas.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6ylEieyQ212gpI9mmdvamH0pnBgVzpfwo06wK6+tAsA="
+        }
+      ]
+    },
+    {
+      "Route": "canvas.js",
+      "AssetFile": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\obj\\Debug\\net9.0\\compressed\\vptskxy957-0cj1gkn81f.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002849002849"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "350"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6ylEieyQ212gpI9mmdvamH0pnBgVzpfwo06wK6+tAsA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 13:43:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"4Jdm5g2Mw4bbV4xeDBgX1PC3VK7kor6op3C5vCOo5oE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4Jdm5g2Mw4bbV4xeDBgX1PC3VK7kor6op3C5vCOo5oE="
+        }
+      ]
+    },
+    {
+      "Route": "canvas.js",
+      "AssetFile": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\canvas.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "713"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4Jdm5g2Mw4bbV4xeDBgX1PC3VK7kor6op3C5vCOo5oE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 13:43:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4Jdm5g2Mw4bbV4xeDBgX1PC3VK7kor6op3C5vCOo5oE="
+        }
+      ]
+    },
+    {
+      "Route": "canvas.js.gz",
+      "AssetFile": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\obj\\Debug\\net9.0\\compressed\\vptskxy957-0cj1gkn81f.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "350"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6ylEieyQ212gpI9mmdvamH0pnBgVzpfwo06wK6+tAsA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 13:43:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6ylEieyQ212gpI9mmdvamH0pnBgVzpfwo06wK6+tAsA="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.ifv42okdf2.png",
+      "AssetFile": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 27 Jan 2025 13:06:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ifv42okdf2"
+        },
+        {
+          "Name": "label",
+          "Value": "favicon.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.png",
+      "AssetFile": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 27 Jan 2025 13:06:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
+    },
+    {
+      "Route": "Images/1519171567_6xAfr45m0gweCG8Ja.cne4ikhtq1.gif",
+      "AssetFile": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\Images\\1519171567_6xAfr45m0gweCG8Ja.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5899155"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KJXQQA4KfHE3CXqaiRs7Ic9SFmtrcN8FUeACKu21ms4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 08:18:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cne4ikhtq1"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/1519171567_6xAfr45m0gweCG8Ja.gif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KJXQQA4KfHE3CXqaiRs7Ic9SFmtrcN8FUeACKu21ms4="
+        }
+      ]
+    },
+    {
+      "Route": "Images/1519171567_6xAfr45m0gweCG8Ja.gif",
+      "AssetFile": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\Images\\1519171567_6xAfr45m0gweCG8Ja.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5899155"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KJXQQA4KfHE3CXqaiRs7Ic9SFmtrcN8FUeACKu21ms4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 08:18:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KJXQQA4KfHE3CXqaiRs7Ic9SFmtrcN8FUeACKu21ms4="
+        }
+      ]
+    },
+    {
+      "Route": "Images/cookie_basic.00epmtxixf.png",
+      "AssetFile": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\Images\\cookie_basic.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2004229"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4PK2FvPwYPylK99/fqOTCDYRGiHWFwUGMJEBB77MTs8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 18:20:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "00epmtxixf"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/cookie_basic.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4PK2FvPwYPylK99/fqOTCDYRGiHWFwUGMJEBB77MTs8="
+        }
+      ]
+    },
+    {
+      "Route": "Images/cookie_basic.png",
+      "AssetFile": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\Images\\cookie_basic.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2004229"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4PK2FvPwYPylK99/fqOTCDYRGiHWFwUGMJEBB77MTs8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 18:20:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4PK2FvPwYPylK99/fqOTCDYRGiHWFwUGMJEBB77MTs8="
+        }
+      ]
+    },
+    {
+      "Route": "Images/dark_cookie.lghmtu4e1f.png",
+      "AssetFile": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\Images\\dark_cookie.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "48874"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5TY3mNgiIDZZdXooSO7pNNInARluRstX8MBguzqci+c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 18:24:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lghmtu4e1f"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/dark_cookie.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5TY3mNgiIDZZdXooSO7pNNInARluRstX8MBguzqci+c="
+        }
+      ]
+    },
+    {
+      "Route": "Images/dark_cookie.png",
+      "AssetFile": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\Images\\dark_cookie.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "48874"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5TY3mNgiIDZZdXooSO7pNNInARluRstX8MBguzqci+c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 18:24:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5TY3mNgiIDZZdXooSO7pNNInARluRstX8MBguzqci+c="
+        }
+      ]
+    },
+    {
+      "Route": "Images/News1Image.091kkvjcz9.png",
+      "AssetFile": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\Images\\News1Image.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "130430"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VOM4Cw8x7gBAR8Q0/AeZ6JZ20T7TFWHiFeFIx7cQqEc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 27 Jan 2025 09:48:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "091kkvjcz9"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/News1Image.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VOM4Cw8x7gBAR8Q0/AeZ6JZ20T7TFWHiFeFIx7cQqEc="
+        }
+      ]
+    },
+    {
+      "Route": "Images/News1Image.png",
+      "AssetFile": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\Images\\News1Image.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "130430"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VOM4Cw8x7gBAR8Q0/AeZ6JZ20T7TFWHiFeFIx7cQqEc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 27 Jan 2025 09:48:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VOM4Cw8x7gBAR8Q0/AeZ6JZ20T7TFWHiFeFIx7cQqEc="
+        }
+      ]
+    },
+    {
+      "Route": "Images/News2Image.1ytmtlpend.png",
+      "AssetFile": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\Images\\News2Image.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "177571"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5/3NV2GTIqCgFlfLICWShoDn4zWxyk7V7CfaDTXouSc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 27 Jan 2025 09:48:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1ytmtlpend"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/News2Image.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5/3NV2GTIqCgFlfLICWShoDn4zWxyk7V7CfaDTXouSc="
+        }
+      ]
+    },
+    {
+      "Route": "Images/News2Image.png",
+      "AssetFile": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\Images\\News2Image.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "177571"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5/3NV2GTIqCgFlfLICWShoDn4zWxyk7V7CfaDTXouSc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 27 Jan 2025 09:48:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5/3NV2GTIqCgFlfLICWShoDn4zWxyk7V7CfaDTXouSc="
+        }
+      ]
+    },
+    {
+      "Route": "Images/News3Image.p02ttzniy4.png",
+      "AssetFile": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\Images\\News3Image.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "208064"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eUhNm4VThgdK9KtyOlfv+bGmsxmC45ULSkBa/Cdo7nk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 27 Jan 2025 09:48:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p02ttzniy4"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/News3Image.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eUhNm4VThgdK9KtyOlfv+bGmsxmC45ULSkBa/Cdo7nk="
+        }
+      ]
+    },
+    {
+      "Route": "Images/News3Image.png",
+      "AssetFile": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\Images\\News3Image.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "208064"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eUhNm4VThgdK9KtyOlfv+bGmsxmC45ULSkBa/Cdo7nk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 27 Jan 2025 09:48:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-eUhNm4VThgdK9KtyOlfv+bGmsxmC45ULSkBa/Cdo7nk="
+        }
+      ]
+    },
+    {
+      "Route": "Images/News4Image.j2i86t1k5f.png",
+      "AssetFile": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\Images\\News4Image.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "193201"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hYg+DdGjuZSdV+NGsbHZP8vWth9uyGg4ywoqtKGe7J0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 27 Jan 2025 09:48:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j2i86t1k5f"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/News4Image.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hYg+DdGjuZSdV+NGsbHZP8vWth9uyGg4ywoqtKGe7J0="
+        }
+      ]
+    },
+    {
+      "Route": "Images/News4Image.png",
+      "AssetFile": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\Images\\News4Image.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "193201"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hYg+DdGjuZSdV+NGsbHZP8vWth9uyGg4ywoqtKGe7J0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 27 Jan 2025 09:48:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hYg+DdGjuZSdV+NGsbHZP8vWth9uyGg4ywoqtKGe7J0="
+        }
+      ]
+    },
+    {
+      "Route": "Images/shopping-cart.c2eeakqqkr.png",
+      "AssetFile": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\Images\\shopping-cart.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12232"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TIc2A7i5GyLFJzu/r8ncZVPj/EjBTxozczJSCQ/Mb7o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 17:10:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c2eeakqqkr"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/shopping-cart.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TIc2A7i5GyLFJzu/r8ncZVPj/EjBTxozczJSCQ/Mb7o="
+        }
+      ]
+    },
+    {
+      "Route": "Images/shopping-cart.png",
+      "AssetFile": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\Images\\shopping-cart.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12232"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TIc2A7i5GyLFJzu/r8ncZVPj/EjBTxozczJSCQ/Mb7o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 17:10:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TIc2A7i5GyLFJzu/r8ncZVPj/EjBTxozczJSCQ/Mb7o="
+        }
+      ]
+    },
+    {
+      "Route": "index.1gxhrh048n.html",
+      "AssetFile": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\obj\\Debug\\net9.0\\compressed\\sum6bb621s-1gxhrh048n.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003367003367"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "296"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pxtoD4e/P2EUQ17w42xK+Kw45x1BA7nZjRN0Px7OXwQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 13:47:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"b119q/Tr73mkxnEihyFToj6Tp6uzfeAR1W7eDKXelII=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1gxhrh048n"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-b119q/Tr73mkxnEihyFToj6Tp6uzfeAR1W7eDKXelII="
+        }
+      ]
+    },
+    {
+      "Route": "index.1gxhrh048n.html",
+      "AssetFile": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "404"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"b119q/Tr73mkxnEihyFToj6Tp6uzfeAR1W7eDKXelII=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 13:47:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1gxhrh048n"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-b119q/Tr73mkxnEihyFToj6Tp6uzfeAR1W7eDKXelII="
+        }
+      ]
+    },
+    {
+      "Route": "index.1gxhrh048n.html.gz",
+      "AssetFile": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\obj\\Debug\\net9.0\\compressed\\sum6bb621s-1gxhrh048n.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "296"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pxtoD4e/P2EUQ17w42xK+Kw45x1BA7nZjRN0Px7OXwQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 13:47:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1gxhrh048n"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pxtoD4e/P2EUQ17w42xK+Kw45x1BA7nZjRN0Px7OXwQ="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\obj\\Debug\\net9.0\\compressed\\sum6bb621s-1gxhrh048n.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003367003367"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "296"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pxtoD4e/P2EUQ17w42xK+Kw45x1BA7nZjRN0Px7OXwQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 13:47:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"b119q/Tr73mkxnEihyFToj6Tp6uzfeAR1W7eDKXelII=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-b119q/Tr73mkxnEihyFToj6Tp6uzfeAR1W7eDKXelII="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "404"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"b119q/Tr73mkxnEihyFToj6Tp6uzfeAR1W7eDKXelII=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 13:47:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-b119q/Tr73mkxnEihyFToj6Tp6uzfeAR1W7eDKXelII="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\obj\\Debug\\net9.0\\compressed\\sum6bb621s-1gxhrh048n.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "296"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pxtoD4e/P2EUQ17w42xK+Kw45x1BA7nZjRN0Px7OXwQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 13:47:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pxtoD4e/P2EUQ17w42xK+Kw45x1BA7nZjRN0Px7OXwQ="
+        }
+      ]
+    },
+    {
+      "Route": "Novosti.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\obj\\Debug\\net9.0\\compressed\\45n829duu2-dm8y2llgha.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000571428571"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1749"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MOpgugvaS/gODusNyhVk1DQjGM9qxF0G1ankpHrvtbE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Feb 2025 10:26:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"JWa0XtZye14VKGS4H8vxPqRshlAgnIj3owwYLXAZiyI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JWa0XtZye14VKGS4H8vxPqRshlAgnIj3owwYLXAZiyI="
+        }
+      ]
+    },
+    {
+      "Route": "Novosti.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Novosti.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5897"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JWa0XtZye14VKGS4H8vxPqRshlAgnIj3owwYLXAZiyI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Feb 2025 10:26:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JWa0XtZye14VKGS4H8vxPqRshlAgnIj3owwYLXAZiyI="
+        }
+      ]
+    },
+    {
+      "Route": "Novosti.bundle.scp.css.gz",
+      "AssetFile": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\obj\\Debug\\net9.0\\compressed\\45n829duu2-dm8y2llgha.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1749"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MOpgugvaS/gODusNyhVk1DQjGM9qxF0G1ankpHrvtbE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Feb 2025 10:26:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MOpgugvaS/gODusNyhVk1DQjGM9qxF0G1ankpHrvtbE="
+        }
+      ]
+    },
+    {
+      "Route": "Novosti.dm8y2llgha.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\obj\\Debug\\net9.0\\compressed\\45n829duu2-dm8y2llgha.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000571428571"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1749"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MOpgugvaS/gODusNyhVk1DQjGM9qxF0G1ankpHrvtbE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Feb 2025 10:26:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"JWa0XtZye14VKGS4H8vxPqRshlAgnIj3owwYLXAZiyI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dm8y2llgha"
+        },
+        {
+          "Name": "label",
+          "Value": "Novosti.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JWa0XtZye14VKGS4H8vxPqRshlAgnIj3owwYLXAZiyI="
+        }
+      ]
+    },
+    {
+      "Route": "Novosti.dm8y2llgha.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Novosti.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5897"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JWa0XtZye14VKGS4H8vxPqRshlAgnIj3owwYLXAZiyI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Feb 2025 10:26:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dm8y2llgha"
+        },
+        {
+          "Name": "label",
+          "Value": "Novosti.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JWa0XtZye14VKGS4H8vxPqRshlAgnIj3owwYLXAZiyI="
+        }
+      ]
+    },
+    {
+      "Route": "Novosti.dm8y2llgha.bundle.scp.css.gz",
+      "AssetFile": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\obj\\Debug\\net9.0\\compressed\\45n829duu2-dm8y2llgha.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1749"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MOpgugvaS/gODusNyhVk1DQjGM9qxF0G1ankpHrvtbE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Feb 2025 10:26:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dm8y2llgha"
+        },
+        {
+          "Name": "label",
+          "Value": "Novosti.bundle.scp.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MOpgugvaS/gODusNyhVk1DQjGM9qxF0G1ankpHrvtbE="
+        }
+      ]
+    },
+    {
+      "Route": "Novosti.dm8y2llgha.styles.css",
+      "AssetFile": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\obj\\Debug\\net9.0\\compressed\\4vyl2kta32-dm8y2llgha.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000571428571"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1749"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MOpgugvaS/gODusNyhVk1DQjGM9qxF0G1ankpHrvtbE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Feb 2025 10:26:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"JWa0XtZye14VKGS4H8vxPqRshlAgnIj3owwYLXAZiyI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dm8y2llgha"
+        },
+        {
+          "Name": "label",
+          "Value": "Novosti.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JWa0XtZye14VKGS4H8vxPqRshlAgnIj3owwYLXAZiyI="
+        }
+      ]
+    },
+    {
+      "Route": "Novosti.dm8y2llgha.styles.css",
+      "AssetFile": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\obj\\Debug\\net9.0\\scopedcss\\bundle\\Novosti.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5897"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JWa0XtZye14VKGS4H8vxPqRshlAgnIj3owwYLXAZiyI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Feb 2025 10:26:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dm8y2llgha"
+        },
+        {
+          "Name": "label",
+          "Value": "Novosti.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JWa0XtZye14VKGS4H8vxPqRshlAgnIj3owwYLXAZiyI="
+        }
+      ]
+    },
+    {
+      "Route": "Novosti.dm8y2llgha.styles.css.gz",
+      "AssetFile": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\obj\\Debug\\net9.0\\compressed\\4vyl2kta32-dm8y2llgha.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1749"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MOpgugvaS/gODusNyhVk1DQjGM9qxF0G1ankpHrvtbE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Feb 2025 10:26:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dm8y2llgha"
+        },
+        {
+          "Name": "label",
+          "Value": "Novosti.styles.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MOpgugvaS/gODusNyhVk1DQjGM9qxF0G1ankpHrvtbE="
+        }
+      ]
+    },
+    {
+      "Route": "Novosti.styles.css",
+      "AssetFile": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\obj\\Debug\\net9.0\\compressed\\4vyl2kta32-dm8y2llgha.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000571428571"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1749"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MOpgugvaS/gODusNyhVk1DQjGM9qxF0G1ankpHrvtbE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Feb 2025 10:26:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"JWa0XtZye14VKGS4H8vxPqRshlAgnIj3owwYLXAZiyI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JWa0XtZye14VKGS4H8vxPqRshlAgnIj3owwYLXAZiyI="
+        }
+      ]
+    },
+    {
+      "Route": "Novosti.styles.css",
+      "AssetFile": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\obj\\Debug\\net9.0\\scopedcss\\bundle\\Novosti.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5897"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JWa0XtZye14VKGS4H8vxPqRshlAgnIj3owwYLXAZiyI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Feb 2025 10:26:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JWa0XtZye14VKGS4H8vxPqRshlAgnIj3owwYLXAZiyI="
+        }
+      ]
+    },
+    {
+      "Route": "Novosti.styles.css.gz",
+      "AssetFile": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\obj\\Debug\\net9.0\\compressed\\4vyl2kta32-dm8y2llgha.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1749"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MOpgugvaS/gODusNyhVk1DQjGM9qxF0G1ankpHrvtbE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Feb 2025 10:26:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MOpgugvaS/gODusNyhVk1DQjGM9qxF0G1ankpHrvtbE="
+        }
+      ]
+    },
+    {
+      "Route": "Song/Drumedy.esszf5uic3.mp3",
+      "AssetFile": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\Song\\Drumedy.mp3",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6733824"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "audio/mpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fn+reb+BdvBpRIPldw6/jU+o4oqW9mB/ric7jpxmNyo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 21:17:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "esszf5uic3"
+        },
+        {
+          "Name": "label",
+          "Value": "Song/Drumedy.mp3"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fn+reb+BdvBpRIPldw6/jU+o4oqW9mB/ric7jpxmNyo="
+        }
+      ]
+    },
+    {
+      "Route": "Song/Drumedy.mp3",
+      "AssetFile": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\Song\\Drumedy.mp3",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6733824"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "audio/mpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fn+reb+BdvBpRIPldw6/jU+o4oqW9mB/ric7jpxmNyo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 21:17:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fn+reb+BdvBpRIPldw6/jU+o4oqW9mB/ric7jpxmNyo="
+        }
+      ]
+    }
+  ]
+}

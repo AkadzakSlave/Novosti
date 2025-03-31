@@ -1,0 +1,130 @@
+﻿@page "/Market"
+@using System.Net
+@using Microsoft.AspNetCore.SignalR
+@using Newtonsoft.Json
+@rendermode InteractiveServer
+
+<h3>Market</h3>
+<p> Ваш список покупок на сегодня!</p>
+
+
+<p></p>
+<select class="form-select" aria-label="Default select example">
+    <option selected>Products</option>
+    <option value="1">Cucumber</option>
+    <option value="2">Tomato</option>
+    <option value="3">nEgger</option>
+    <option value="4">banana</option>
+</select>
+<p></p>
+<input type="text" @bind="NewKeep"/>
+<button class="btn btn-info" @onclick="AddFile"> Add product </button>
+<button class="btn btn" @onclick="SaveFile">Save</button>
+
+<table class="table table-bordered w-40">
+    <thead class="table-danger">
+    <tr>
+        <td>
+            <b>Notice</b>
+        </td>
+        <td>
+            <b>Action</b>
+        </td>
+        <td>
+            <b>Changing</b>
+        </td>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in myKeeps)
+    {
+        <tr>
+            <td>
+                @item
+            </td>
+            <td>
+                <button class="btn btn-danger" @onclick="() => RemoveKeep(item)">Delete</button>
+            </td>
+            <td>
+                @*<button class="btn btn-info" @onclick="() => ChangeItem">Change</button>*@
+
+            </td>
+        </tr>
+    }
+    </tbody>
+
+</table>
+<p></p>
+@if (showAlert)
+{
+    <div class="alert alert-@(_alertFor is AlertFor.Succes ? "success" : "danger")" role="alert">
+        @(_alertFor is AlertFor.Succes ? "Вы добавили заметку в базу СБУ" : "Ваши данные слили ФСБ")
+    </div>
+}
+
+@code {
+    private IList<string> myKeeps = new List<string>();
+    public string NewKeep { get; set; }
+    public bool showAlert { get; set; } = false;
+
+    private AlertFor _alertFor = AlertFor.Empty;
+
+    protected override void OnInitialized()
+    {
+        OpenFile();
+    }
+
+    public void OpenFile()
+    {
+        if (File.Exists("mykeeps.json"))
+        {
+            var json = File.ReadAllText("mykeeps.json");
+            myKeeps = JsonConvert.DeserializeObject<List<string>>(json)!;
+        }
+        else
+        {
+            SaveFile();
+        }
+    }
+
+    public void SaveFile()
+    {
+        var json = JsonConvert.SerializeObject(myKeeps);
+        File.WriteAllText("mykeeps.json", json);
+    }
+
+    private void RemoveKeep(string item)
+    {
+        myKeeps.Remove(item);
+        SaveFile();
+    }
+
+    private void AddFile()
+    {
+        if (string.IsNullOrEmpty(NewKeep))
+        {
+            showAlert = true;
+            _alertFor = AlertFor.Empty;
+            return;
+        }
+
+        myKeeps.Add(NewKeep);
+        showAlert = true;
+        _alertFor = AlertFor.Succes;
+        NewKeep = string.Empty;
+        SaveFile();
+    }
+
+    public void ChangeItem(string item)
+    {
+        myKeeps.Clear();
+        item = "goida";
+    }
+
+    enum AlertFor
+    {
+        Succes,
+        Empty
+    }
+
+}

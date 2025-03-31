@@ -1,0 +1,88 @@
+﻿@page "/Cart"
+@using Models
+@using Models.Services
+@using Task = System.Threading.Tasks.Task
+@inject CartService CartService
+@inject  MoneyService MoneyService
+@rendermode InteractiveServer
+@inject  NavigationManager NavigationManager
+
+<nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/CookieMarket">Каталог товаров</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Корзина</li>
+    </ol>
+</nav>
+
+<h3>Корзина</h3>
+
+@if (cartItems.Count == 0)
+{
+    @if (BuyText == "Оплата прошла успешно")
+    {
+        <div class="alert alert-success" role="alert">
+            @BuyText
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-info" role="alert">
+            @BuyText
+        </div>
+    }
+}
+else
+{
+    <ul>
+        @foreach (var item in cartItems)
+        {
+            <li>@item.Name - @item.Price </li>
+        }
+    </ul>
+    <b>Общая стоимость: @CartService.GetTotalPrice()</b>
+    
+    <p>
+        <button class="btn btn-success" @onclick="BuyButton">Оплатить</button>
+        <button class="btn btn-danger" @onclick="ClearCart">Очистить корзину</button>
+    </p>
+    
+    @if (BuyText == "Ошибка оплаты")
+    {
+<div class="alert alert-danger alert-dismissible fade show" role="alert">
+    <strong>Ошибка оплаты!</strong> Тебе стоит пополнить баланс
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close" ></button>
+</div>
+    }
+    
+}
+
+@code {
+    private List<Cookie> cartItems;
+    string BuyText = "Здесь пока ничего нет";
+    protected override void OnInitialized()
+    {
+        cartItems = CartService.GetCartItems();
+    }
+
+    private void ClearCart()
+    {
+        cartItems.Clear();
+    }
+
+    private async void BuyButton()
+    {
+        if (MoneyService.BuyAll(CartService))
+        {
+            cartItems.Clear();
+            BuyText = "Оплата прошла успешно";
+            await Task.Delay(500);
+            NavigationManager.NavigateTo("/Cart");
+            BuyText = "Купить";
+        }
+        else
+        {
+            BuyText = "Ошибка оплаты";
+            await Task.Delay(500);
+        }
+    }
+}

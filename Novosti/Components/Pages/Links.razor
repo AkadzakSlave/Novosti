@@ -1,0 +1,164 @@
+﻿@page "/Links"
+@implements IDisposable
+@inject IJSRuntime JSRuntime
+
+<h3>Links</h3>
+
+<a href="https://getbootstrap.com/docs/5.0/content/reboot/">Перейти --></a>
+<p></p>
+<a href="http://localhost:5119">На главную</a>
+<p><a class="font-color" href="https://yandex.ru/search/?text=%D0%BA%D1%83%D1%80%D1%81+%D0%B4%D0%BE%D0%BB%D0%BB%D0%B0%D1%80%D0%B0&clid=2411726&lr=51">Курс доллара</a></p>
+
+<h3>Игра Змейка</h3>
+<canvas @ref="canvas" width="400" height="400" style="border:1px solid black;"></canvas>
+<p>Счет: @score</p>
+<button class="btn btn-info" @onclick="StartGame">Старт</button>
+
+@code {
+    private ElementReference canvas;
+    private int score = 1;
+    private int boxSize = 20;
+    private List<Point> snake = new();
+    private Point food;
+    private string direction = "RIGHT";
+    private bool gameOver = false;
+    private CancellationTokenSource cts;
+    private object context;
+
+    private async Task StartGame()
+    {
+        try
+        {
+            Console.WriteLine("Запуск игры...");
+            score = 1;
+            snake.Clear();
+             snake.Add(new Point(5, 5)); 
+             GenerateFood();
+             gameOver = false;
+            cts = new CancellationTokenSource();
+            context = await JSRuntime.InvokeAsync<IJSObjectReference>("getCanvasContext", canvas);
+            await GameLoop(cts.Token);
+            await JSRuntime.InvokeVoidAsync("addKeyDownListener", DotNetObjectReference.Create(this));
+        }
+        catch (Exception ex)
+        {
+            Console.Error.WriteLine($"Ошибка при запуске игры: {ex.Message}");
+        }
+        
+    }
+
+    private async Task GameLoop(CancellationToken token)
+    {
+        try
+        {
+            while (!token.IsCancellationRequested && !gameOver)
+            {
+                MoveSnake();
+                CheckCollision();
+                await Draw();
+                await Task.Delay(100);
+            }
+            if (gameOver)
+            {
+                Console.WriteLine("Игра окончена.");
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.Error.WriteLine($"Ошибка в игровом цикле: {ex.Message}");
+        }
+    }
+    
+    private void MoveSnake()
+    {
+        var head = snake.First();
+        Point newHead = new Point(head.X, head.Y);
+
+        switch (direction)
+        {
+            case "UP": newHead.Y--; break;
+            case "DOWN": newHead.Y++; break;
+            case "LEFT": newHead.X--; break;
+            case "RIGHT": newHead.X++; break;
+        }
+        snake.Insert(0, newHead);
+        
+        if (newHead.X == food.X && newHead.Y == food.Y)
+        {
+            score++;
+            GenerateFood();
+        }
+        else
+        {
+            snake.RemoveAt(snake.Count - 1);
+        }
+    }
+
+    private void GenerateFood()
+    {
+        Random random = new();
+        Point newFood;
+        do
+        {
+            newFood = new Point(random.Next(0, 20), random.Next(0, 20));
+        } while (snake.Contains(newFood));
+        food = newFood;
+    }
+    private void CheckCollision()
+    {
+        var head = snake.First();
+        if (head.X < 0 || head.X >= 20 || head.Y < 0 || head.Y >= 20 || snake.Skip(1).Any(s => s.Equals(head)))
+        {
+            gameOver = true;
+        }
+    }
+
+    private async Task Draw()
+    {
+        await JSRuntime.InvokeVoidAsync("clearCanvas", context);
+        foreach (var segment in snake)
+        {
+            await JSRuntime.InvokeVoidAsync("drawRect", context, segment.X * boxSize, segment.Y * boxSize, boxSize, boxSize);
+        }
+        await JSRuntime.InvokeVoidAsync("drawRect", context, food.X * boxSize, food.Y * boxSize, boxSize, boxSize, "red");
+    }
+
+    [JSInvokable]
+    public void OnKeyDown(string key)
+    {
+        switch (key)
+        {
+            case "ArrowUp": if (direction != "DOWN") direction = "UP"; break;
+            case "ArrowDown": if (direction != "UP") direction = "DOWN"; break;
+            case "ArrowLeft": if (direction != "RIGHT") direction = "LEFT"; break;
+            case "ArrowRight": if (direction != "LEFT") direction = "RIGHT"; break;
+        }
+    }
+
+    public void Dispose()
+    {
+        cts?.Cancel();
+        JSRuntime.InvokeVoidAsync("removeKeyDownListener");
+    }
+
+    private class Point
+    {
+        public int X { get; set; }
+        public int Y { get; set; }
+
+        public Point(int x, int y)
+        {
+            X = x;
+            Y = y;
+        }
+        public override bool Equals(object obj)
+        {
+            return obj is Point point && X == point.X && Y == point.Y;
+        }
+
+        public override int GetHashCode()
+        {
+            return HashCode.Combine(X, Y);
+        }
+    }
+}

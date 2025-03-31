@@ -1,0 +1,89 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Novosti.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Novosti.dm8y2llgha.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\Images\\1519171567_6xAfr45m0gweCG8Ja.gif",
+      "PackagePath": "staticwebassets\\Images\\1519171567_6xAfr45m0gweCG8Ja.gif"
+    },
+    {
+      "Id": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\Images\\News1Image.png",
+      "PackagePath": "staticwebassets\\Images\\News1Image.png"
+    },
+    {
+      "Id": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\Images\\News2Image.png",
+      "PackagePath": "staticwebassets\\Images\\News2Image.png"
+    },
+    {
+      "Id": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\Images\\News3Image.png",
+      "PackagePath": "staticwebassets\\Images\\News3Image.png"
+    },
+    {
+      "Id": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\Images\\News4Image.png",
+      "PackagePath": "staticwebassets\\Images\\News4Image.png"
+    },
+    {
+      "Id": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\Images\\cookie_basic.png",
+      "PackagePath": "staticwebassets\\Images\\cookie_basic.png"
+    },
+    {
+      "Id": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\Images\\dark_cookie.png",
+      "PackagePath": "staticwebassets\\Images\\dark_cookie.png"
+    },
+    {
+      "Id": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\Images\\shopping-cart.png",
+      "PackagePath": "staticwebassets\\Images\\shopping-cart.png"
+    },
+    {
+      "Id": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\Song\\Drumedy.mp3",
+      "PackagePath": "staticwebassets\\Song\\Drumedy.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\canvas.js",
+      "PackagePath": "staticwebassets\\canvas.js"
+    },
+    {
+      "Id": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Илья\\Downloads\\Novosti\\Novosti\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Novosti.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Novosti.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.Novosti.props",
+      "PackagePath": "build\\Novosti.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.Novosti.props",
+      "PackagePath": "buildMultiTargeting\\Novosti.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.Novosti.props",
+      "PackagePath": "buildTransitive\\Novosti.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,57 @@
+﻿@page "/counter"
+@using Models.Services
+@rendermode InteractiveServer
+@inject MoneyService MoneyService
+
+<PageTitle>Counter</PageTitle>
+
+<h1>Money Gainer</h1>
+
+<p role="status">Ваш баланс: @MoneyService.TotalMany</p>
+
+<button class="btn btn-info" @onclick="IncrementCount">Делать деньги</button>
+
+<button class="btn btn-danger" @onclick="Upgrade">Прокачка за @priceup</button>
+
+@code {
+    public decimal click = 1m;
+    public decimal up = 1m;
+    public int priceup = 100;
+    
+    private void IncrementCount()
+    {
+        if (MoneyService.TotalMany == 100_000_000)
+        {
+            MoneyService.TotalMany -= click;
+        }
+        else
+        MoneyService.TotalMany += click;
+    }
+
+    private void Upgrade()
+    {
+        if (MoneyService.TotalMany >= priceup)
+        {
+        MoneyService.TotalMany -= priceup;
+        up++;
+        click *= up;
+        PriceUp();
+        }
+        else
+        {
+            priceup = priceup;
+        }
+        if (priceup >= 16_000_000)
+         {
+            priceup = 16_000_000;
+         }
+    }
+    private void PriceUp()
+    {
+        if (priceup >= 16_000_000)
+        {
+            priceup = 16_000_000;
+        }
+        else priceup *= 2;
+    }
+}
